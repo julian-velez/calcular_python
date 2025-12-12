@@ -13,9 +13,10 @@ multiplicacion = 50 - 7*3 / 3   # resultado: 43.0 (tipo float por la división)
 # Esta línea hace una operación pero no se guarda en ninguna variable:
 # 15 / 3 + 2 * 4 - 8
 # Se calcula: 15 / 3 = 5, 2 * 4 = 8, entonces 5 + 8 - 8 = 5
-15 / 3 + 2 * 4 - 8   # resultado: 5, pero no se muestra porque no se imprime ni guarda
+numero = 15 / 3 + 2 * 4 - 8   # resultado: 5, pero no se muestra porque no se imprime ni guarda
 
 # Se muestran los resultados de las tres operaciones anteriores en pantalla
 print("el resultado de la suma es:", suma)
 print("el resultado de la resta es:", resta)
-print("el resultado de la multiplicacion es:", multiplicacion)
+print("el resultado de la multiplicacion es:",multiplicacion)
+print("el resultado de la operacion no guardada es:", numero)
